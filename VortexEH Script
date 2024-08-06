@@ -1,4 +1,4 @@
- local Rayfield = loadstring(game:HttpGet('https://[Log in to view URL]
+ local Rayfield = loadstring(game:HttpGet('https://www.mycompiler.io/view/58tOem9SKGT))()
 
 local Window = Rayfield:CreateWindow({
    Name = "ryad script",
