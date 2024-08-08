@@ -14,15 +14,15 @@ local Window = Rayfield:CreateWindow({
        Invite = "ENv7udYT", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
        RememberJoins = true -- Set this to false to make them join the discord every time they load it up
     },
-    KeySystem = false, -- Set this to true to use our key system
+    KeySystem = true, -- Set this to true to use our key system
     KeySettings = {
        Title = "only server booster",
        Subtitle = "Key System",
-       Note = "join Discort Server for a key",
+       Note = "join discort for a key",
        FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
        SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
        GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-       Key = {"VortexOnlyAdmin121222-22"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+       Key = {"Vortex94ezu4s"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
     }
  })
 
@@ -141,7 +141,7 @@ local Button = MainTab:CreateButton({
           end
           getfenv().jump = game.Players.LocalPlayer.Character.Humanoid.JumpHeight
       print("Idk why i even did this ;/")
-      local library = loadstring(game:HttpGet("loadstring(game:HttpGet("https://pastebin.com/raw/sbqpadew"))()
+      local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/ui%20libs2"))()
       local example = library:CreateWindow({
         text = "Emergency Hamburg"
       })
